@@ -1,12 +1,13 @@
+
 <a href="login_admin.php" class="m-3 btn btn-primary">LOGIN</a>
 <a href="/" class="m-3 btn btn-primary">MAIN</a>
 <form action="" method="post">
     <textarea type="text" name ='text' style="margin: 1%;width: 400px;height: 100px;"></textarea>
     <input type="submit" name = 'submit'>
     <select name = 'category'>
-        <option>смешные</option>
-        <option>суперкрутесные</option>
-        <option>сногщибательные</option>
+        <option>техника</option>
+        <option>электроника</option>
+        <option>хобби, спорт</option>
 
     </select>
 </form>
@@ -72,7 +73,7 @@ updateId($link);
 offerText($link);
 contentAdd($link,$notesOnPages,$from);
 ?>
-<h1>xoba xoba</h1>
+
 <a href="?page=1">1</a>
 <a href="?page=2">2</a>
 <a href="?page=3">3</a>
